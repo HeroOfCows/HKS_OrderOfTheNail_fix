@@ -1,0 +1,7 @@
+{
+    "UniqueName": "Signifer_Order_of_the_Nail_Progression",
+    "Version": "1.0.0",
+    "DisplayName": "Signifer Order of the Nail fix",
+    "Description": "Signifer now progresses Order of the Nail favored enemy levels and HK favored enemy now qualifies for favored enemy spell casting.",
+    "Author": "HeroOfCows"
+}

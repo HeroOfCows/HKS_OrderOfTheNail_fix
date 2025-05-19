@@ -1,0 +1,61 @@
+{
+    "_#ArrayMergeSettings": "Replace",
+    "Components": [
+      {
+        "$type": "5d2adf9a1c994ac8b01d7372630b5b3c, OwnerAbilityTargetSavingThrowBonus",
+        "m_Flags": 0,
+        "name": "$OwnerAbilityTargetSavingThrowBonus$f314821b-2709-4557-8177-c80e5a84fb53",
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Bonus": -2,
+        "Descriptor": "None",
+        "CheckAbilityType": true,
+        "Type": "Spell",
+        "Conditions": {
+          "Operation": "And",
+          "Conditions": [
+            {
+              "$type": "d884f7acf54918042a8d0b3f9c236bb8, ContextConditionFavoredEnemy",
+              "name": "$ContextConditionFavoredEnemy$31c99d4d-5c00-40f3-853e-53bd652e0c2e",
+              "Not": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "24d005ae28c58444bb8db4b94c9165cc, PrerequisiteFeaturesFromList",
+        "m_Flags": 0,
+        "name": "$PrerequisiteFeaturesFromList$c1a3024a-0325-4bfb-938e-acdcfa5db064",
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "All",
+        "CheckInProgression": false,
+        "HideInUI": false,
+        "IsFeatureSelectionWhiteList": false,
+        "m_Features": [
+          "!bp_16cc2c937ea8d714193017780e7d4fc6",
+          "!bp_f7b7c69d80dd12c40920803a8efb2306",
+		  "!bp_5dff09eef981483baffb0de48eb07e02"
+        ],
+        "Amount": 1
+      },
+      {
+        "$type": "5dab8bb92b6ed244196ee61121023e5c, DlcCondition",
+        "m_Flags": 0,
+        "name": "$DlcCondition$ae8ee5d3-8e55-4a69-8aaf-7555213b1442",
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_DlcReward": "!bp_b94f823171a84e30ad7a1b892433ab5d",
+        "m_HideInstead": false
+      }
+    ]
+}
